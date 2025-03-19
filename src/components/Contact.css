@@ -1,0 +1,21 @@
+.contact{
+    background-color: black;
+    width: 100vw;
+    display: inline-block;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+#chead{
+    color: azure;
+    
+}
+.ct{
+    color:azure;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+
+}

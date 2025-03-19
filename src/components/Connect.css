@@ -1,0 +1,17 @@
+#send{
+    background-color: black;
+    width:100vw;
+    display: flex;
+    height: fit-content;
+    color: azure;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:3px solid white;
+    margin-top: 5px; */
+
+}
+#mess{
+    bottom:5px;
+    margin-bottom: 5px;
+}
