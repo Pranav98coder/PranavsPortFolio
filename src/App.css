@@ -85,7 +85,7 @@ a:hover{
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 360px){
   .app{
     width: 100%;
   }
