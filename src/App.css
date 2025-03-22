@@ -1,13 +1,16 @@
 html{
-  background-color:rgb(165, 159, 42);
+  background-color:black;
 }
 #main{
+  top:0;
+  left:0;
+  width:100vw;
   background-color: aqua;
   display: flex;
   align-content: center;
   flex-direction:row;
   justify-content:space-around;
-  margin-top: 0px;
+  margin:0;
   
   
   
@@ -85,7 +88,7 @@ a:hover{
 
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 400px){
   .app{
     width: 100%;
   }
@@ -93,6 +96,7 @@ a:hover{
     flex-direction: column;
     height: 250px;
     width:100%;
+    padding:10px ;;
   }
   #logo{
     font-size: 30px;
@@ -100,12 +104,12 @@ a:hover{
   .links{
     flex-direction: column;
     gap: 10px;
-    width:250px;
+    width:auto;
   }
   a{
     font-size: 20px;
     display: inline;
-    width:250px;
+    width:auto;
   }
   a:hover{
     box-shadow: 5px 2px red;

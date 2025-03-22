@@ -4,7 +4,7 @@
     
     flex-direction: column;
     height:65vh;
-    width:auto;
+    width:100vw;
     border:2px solid hsl(143, 47%, 43%);
     box-shadow: 5px 3px  hsl(143, 47%, 43%);
     
@@ -24,15 +24,46 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* animation-name: glow ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    z-index: 5; */
+    /* background-color: red;
+    border:2px solid black
+    */
+    
     
     
 }
+img{
+    animation:glow 3s infinite ease-in-out;
+}
+@keyframes glow{
+    0%{
+        box-shadow: 0 0 10px 0px hsl(30, 47%, 43%);
+       background-color: khaki;
+    }
+    50%{
+        box-shadow: 0 0 20px 0px hsl(279, 47%, 43%);
+        background-color: #ff6200;
+    }
+    100%{
+        box-shadow: 0 0 10px 0px hsl(30, 47%, 43%);
+       background-color: khaki;
+
+    }
+    /* 100%{
+        box-shadow: 0 0 30px px hwb(177 23% 37%);
+    } */
+}
+
 h1{
     text-align: center;
     color: #000000d9;
     color: hsl(28, 100%, 25%);
 }
- @media screen and (max-width: 320px){
+ @media screen and (max-width: 400px){
     #about{
         height: 100vh;
         width:auto;
