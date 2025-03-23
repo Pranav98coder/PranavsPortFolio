@@ -19,4 +19,5 @@ h2{
     background-color: rgb(146, 236, 68);
     box-shadow: 5px 3px  hsl(143, 47%, 43%);
     margin-bottom: 10px;
+    width:100vw;
 }
