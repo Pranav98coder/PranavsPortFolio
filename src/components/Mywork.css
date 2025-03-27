@@ -18,5 +18,16 @@ h2{
 #work{
     background-color: rgb(146, 236, 68);
     box-shadow: 5px 3px  hsl(143, 47%, 43%);
+    border:2px solid hsl(143, 47%, 43%);
+    margin-top: 20px;
     margin-bottom: 10px;
+    width:96vw;
+    margin-left: 2vw;
+}
+@media  screen and (max-width:500px) {
+    #work{
+        width:96vw;
+
+    }
+    
 }

@@ -4,11 +4,13 @@
     
     flex-direction: column;
     height:65vh;
-    width:auto;
+    width:96vw;
     border:2px solid hsl(143, 47%, 43%);
     box-shadow: 5px 3px  hsl(143, 47%, 43%);
+    margin-left:2vw;
     
     margin-top: 30px;
+
     background-color: rgb(146, 236, 68);
 
 }
@@ -24,18 +26,49 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* animation-name: glow ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    z-index: 5; */
+    /* background-color: red;
+    border:2px solid black
+    */
+    
     
     
 }
+img{
+    animation:glow 3s infinite ease-in-out;
+}
+@keyframes glow{
+    0%{
+        box-shadow: 0 0 10px 0px hsl(1, 84%, 40%);
+       background-color: hsl(1, 84%, 40%);
+    }
+    50%{
+        box-shadow: 0 0 20px 0px hsl(235, 84%, 43%);
+        background-color:hsl(235, 84%, 43%);
+    }
+    100%{
+        box-shadow: 0 0 10px 0px hsl(121, 83%, 45%);
+       background-color:hsl(121, 83%, 45%);
+
+    }
+    /* 100%{
+        box-shadow: 0 0 30px px hwb(177 23% 37%);
+    } */
+}
+
 h1{
     text-align: center;
     color: #000000d9;
     color: hsl(28, 100%, 25%);
 }
- @media screen and (max-width: 320px){
+ @media screen and (max-width: 500px){
     #about{
-        height: 100vh;
-        width:auto;
+        height:80vh;
+        width:96vw;
     }
     p{
         font-size: 15px;
@@ -68,5 +101,7 @@ h1{
     #icon a:visited{
         font-size: 13px;
     }
-    
+    img{
+        animation:glow 3s infinite ease-in-out;
+    }
  }
